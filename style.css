@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    background: #2a2b32;
+}
+
+section{
+    font-family: u;
+    color:#fff
+}
+
+
+section h1{
+    font-size: 3.5rem;
+}
+
+section h3{
+    font-size: 2.5rem;
+}
+
+section ol li{
+    font-size: 1.5rem;
+}
+
+section ul li{
+    font-size: 1.5rem;
+}
+
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #e91e63;
+}
+
+h1.header{
+    color: #e91e63;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h1.sub-header{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+h2{
+    color: #616161;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p.paragraph{
+    color:#fff;
+    font-size: 1.5rem;
+}
+
+p.paragraph h1{
+    color: #ccc;
+}
+
+
+canvas{
+    height: 100vh;
+    z-index: -100000;
+    position: fixed;
+    top: 0px;
+}
+
+.mb{
+    margin-bottom: 3rem;
+}
+
+.logo{
+    font-family: "Monoton", cursive;
+    color: #fff;
+    font-size: 10rem;
+}
+
+.items-list ul li{
+    list-style-type: disc;
+    color:#fff;
+    font-size: 1.1em;
+}
+
+.items-list h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.links-list ul li{
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.links-list h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.links-list ul li span{
+    background-color: #e91e63;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 3px 6px;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    color: #fff;
+}
+
+.footer{
+    margin-top: 6rem;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 1.3rem;
+}
